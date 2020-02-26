@@ -1,0 +1,40 @@
+{
+  "name": "clipanion-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "bin": {
+    "clipanion": "lib/index.js"
+  },
+  "scripts": {
+    "prepack": "rm -rf lib && tsc",
+    "test": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/clipanion-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/clipanion-test/issues"
+  },
+  "homepage": "https://github.com/i5ting/clipanion-test#readme",
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "debug": "^4.1.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "publishConfig": {
+    "main": "lib/index"
+  },
+  "files": [
+    "/lib/**/*",
+    "!/lib/demos/**/*"
+  ],
+  "dependencies": {
+    "clipanion": "^2.1.6"
+  }
+}
