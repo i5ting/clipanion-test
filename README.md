@@ -154,7 +154,7 @@ Hello, i5ting!
 
 ![](./fsm.png)
 
-将选型、参数、起止状态都做了抽象。结合源码
+将选项、参数、起止状态都做了抽象。结合源码
 
 ```ts
 export type RunState = {
