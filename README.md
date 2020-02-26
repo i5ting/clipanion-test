@@ -2,7 +2,7 @@
 
 [clipanion](https://github.com/arcanis/clipanion) 是一个非常新的模块，写了不到1年，在2020年2月26日只有77个star。
 
-为啥我如何次看好它呢？具体如下。
+为啥我如何看好它呢？具体如下。
 
 ## 特性
 
